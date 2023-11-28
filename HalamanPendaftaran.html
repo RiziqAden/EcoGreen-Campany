@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Formulir Pendaftaran EcoGreen Company</title>
+    <link rel="stylesheet" type="text/css" href="HalamanPendaftaranCSS.css">
+</head>
+<body>
+    <div class="container">
+        <form id="registration-form">
+            <h1>Pendaftaran EcoGreen Company</h1>
+            <div class="input-container">
+                <label for="nama">Nama Lengkap:</label>
+                <input type="text" id="nama" name="nama" required>
+            </div>
+            <div class="input-container">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="input-container">
+                <label for="telepon">Nomor Telepon:</label>
+                <input type="tel" id="telepon" name="telepon" required>
+            </div>
+            <div class="input-container">
+                <label>Jenis Proyek Lingkungan yang Anda Minati:</label>
+                <div class="checkbox">
+                    <input type="checkbox" id="reboisasi" name="proyek[]" value="Reboisasi Hutan">
+                    <label for="reboisasi">Reboisasi Hutan</label>
+                </div>
+                <div class="checkbox">
+                    <input type="checkbox" id="energi" name="proyek[]" value="Energi Terbarukan">
+                    <label for="energi">Energi Terbarukan</label>
+                </div>
+                <div class="checkbox">
+                    <input type="checkbox" id="pendidikan" name="proyek[]" value="Pendidikan Lingkungan">
+                    <label for="pendidikan">Pendidikan Lingkungan</label>
+                </div>
+                <div class="checkbox">
+                    <input type="checkbox" id="lainnya" name="proyek[]" value="Proyek Lainnya">
+                    <label for="lainnya">Proyek Lainnya</label>
+                </div>
+            </div>
+            <div class="input-container">
+                <label for="keterangan-lainnya">Keterangan lebih lanjut (jika Anda memilih "Proyek Lainnya"):</label>
+                <textarea id="keterangan-lainnya" name="keterangan-lainnya" rows="4"></textarea>
+            </div>
+            <div class="input-container">
+                <label for="saran-komentar">Saran atau Komentar Tambahan:</label>
+                <textarea id="saran-komentar" name="saran-komentar" rows="4"></textarea>
+            </div>
+            <a class="submit" href="Halaman1.html">Daftar</a>
+            
+        </form>
+    </div>
+
+            <!--Footer-->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-left">
+                <h3> Kelompok 6 web EcoGreen Company.</h3>
+                    <p><b> Alamat: </b><br>
+                    Universitas Djuanda, Jalan Tol Jagorawi, Ciawi, Kabupaten Bogor, Jawa Barat</p>
+                    <p><b>Telepon:</b><br> 081289274040</p> 
+                    <p><b>Email:</b><br>EcoGreenCompany@gmail.com</p>
+
+            </div>
+            <div class="footer-right">
+                <h3>Anggota Kelompok:</h3>
+                <ul>
+                    <li>M. Riziq Sirfatullah ALfarizi - I.2211266</li>
+                    <li>M. Juroihan - I.2211186</li>
+                    <li>M. Zidan Al-farisi - I.2211106</li>
+                    <li>Naufal azqira arifin putra - I.2210194</li>
+                    <li>Ananda Alfiah - I.2210378</li>
+                    <li>Agung Restu Ramadhan - I.2210546</li>
+                    <li>Muhammad Abdul Azis - I.2210374</li>
+                </ul>
+            </div>
+        </div>
+        <p class="footer-copyright">&copy; By Kelompok 6 Web.</p>
+    </footer>
+
+        <!--Akhir Footer-->
+</body>
+</html>
